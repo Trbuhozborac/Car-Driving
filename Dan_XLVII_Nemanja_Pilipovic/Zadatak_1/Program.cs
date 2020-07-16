@@ -1,4 +1,5 @@
-﻿using Zadatak_1.Models;
+﻿using System;
+using Zadatak_1.Models;
 
 namespace Zadatak_1
 {
@@ -8,6 +9,7 @@ namespace Zadatak_1
         {
             App app = new App();
             app.Start();
+            Console.ReadLine();
         }
     }
 }
